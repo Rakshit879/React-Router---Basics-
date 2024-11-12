@@ -1,0 +1,43 @@
+.hero_container{
+    width: 100%;
+    height: max-content;
+    /* border: 2px solid black; */
+}
+.heroUpperContainer{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+}
+.upperLeft{
+    width: 50%;
+    /* border: 2px solid red; */
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.upperRight{
+    width: 50%;
+    /* border: 2px solid blue; */
+}
+#hero_image{
+    height: 60%;
+}
+.download_button{
+    margin-top: 1rem;
+    height: 3rem;
+    width: 9rem;
+    /* border: 2px solid brown; */
+    border-radius: 1rem;
+    background-color: rgb(217, 116, 0);
+    color: white;
+}
+.lowerHeroContainer{
+    width: 100%;
+}
+#hero_lower_image{
+    height: 15rem;
+}
